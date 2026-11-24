@@ -9,7 +9,6 @@
 cd ProductApi
 dotnet tool install --global dotnet-ef        # chỉ cần lần đầu
 dotnet restore
-dotnet ef migrations add InitialCreate        # tạo thư mục Migrations
 dotnet ef database update                     # tạo file products.db + bảng Products
 dotnet run
 ```
